@@ -1,6 +1,12 @@
 🎥 Movie Recommender System
 
-A simple, beginner-friendly movie recommender system built with Streamlit, using cosine similarity on precomputed movie embeddings. This app suggests 5 movies similar to the one selected by the user, along with their posters fetched from the TMDb API.
+A simple, beginner-friendly movie recommender system built with Streamlit, using cosine similarity on precomputed movie embeddings.
+
+We generate numerical vectors for each movie using tags (genre, cast, etc.), then compute their pairwise similarity using cosine similarity.
+
+This similarity matrix is saved and reused for fast recommendations.
+
+This app suggests 5 movies similar to the one selected by the user, along with their posters fetched from the TMDb API.
 
 📁 Project Structure
 
