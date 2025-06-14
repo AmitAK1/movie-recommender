@@ -90,5 +90,7 @@ Use a model-based recommender (e.g., NLP or embeddings)
 🙌 Author
 
 Amit Kamble
+
 Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram
+
 Computer Science-with Major in AI.
