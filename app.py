@@ -3,6 +3,18 @@ import pickle
 import pandas as pd
 import numpy as np
 import requests
+import os
+import gdown
+
+
+def download_file_from_google_drive(file_id, output_path):
+    if not os.path.exists(output_path):
+        url = f"https://drive.google.com/uc?id={file_id}&confirm=t"
+        gdown.download(url, output_path, quiet=False, fuzzy=True)
+
+# Download the files if not present
+download_file_from_google_drive('1nlHYXIyVHFyFdUm8aZeS9DcdfQGYMNmM', 'movies.pkl')
+download_file_from_google_drive('18Z3uoE6P7KM1iVDmtJFewy6O3UMV35iE', 'similarity.pkl')
 
 movies_df = pickle.load(open('movies.pkl', 'rb'))
 movies_list = movies_df['title'].tolist()
