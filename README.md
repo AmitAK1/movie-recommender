@@ -69,6 +69,7 @@ Note: For simplicity, this app uses the API key directly in code. It's fine for 
 
 🎨 UI Preview
 
+![image](https://github.com/user-attachments/assets/a5203562-5b57-4e20-8641-fc1672e6ba93)
 
 
 🔧 Tech Stack
