@@ -8,6 +8,10 @@ This app suggests **5 similar movies** to the one selected by the user, along wi
 
 ---
 
+🌐 Live Demo
+You can try the app live here:
+👉 https://movierecommender010.streamlit.app/
+
 ## 📄 Features
 
 - Choose a movie from a dropdown  
