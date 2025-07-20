@@ -1,1 +1,2 @@
-
+[server]
+folderWatchBlacklist = ["venv", ".venv", "env", ".env", "node_modules", ".git"]
